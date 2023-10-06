@@ -7,5 +7,5 @@ if __name__ == "__main__":
         if j[0:2] != "__":
             break
         i = i + 1
-    for l in range(i, len(res_dir)):
-        print(res_dir[l])
+    for p in range(i, len(res_dir)):
+        print(res_dir[p])
