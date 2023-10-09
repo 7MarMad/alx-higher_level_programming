@@ -3,8 +3,8 @@
 def no_c(my_string):
     sttr = ""
     str_list = list(my_string)
-    len1 = len(str_list.count('c'))
-    len2 = len(str_list.count('C'))
+    len1 = str_list.count('c')
+    len2 = str_list.count('C')
 
     for i in range(len1):
         str_list.remove('c')
