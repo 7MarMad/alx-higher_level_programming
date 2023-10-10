@@ -40,8 +40,8 @@ int is_palindrome(listint_t **head)
 		return 1;
 	for (i = 0; i < (n / 2); i++)
 	{
-		walker2 = *head;
-		for (j = 0; j < n - i - 1; j++)
+		walker2 = walker1;
+		for (j = i; j < n - i - 1; j++)
 		{
 			walker2 = walker2->next;
 		}
