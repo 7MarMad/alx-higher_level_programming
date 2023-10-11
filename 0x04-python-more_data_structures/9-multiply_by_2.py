@@ -5,6 +5,6 @@ def multiply_by_2(a_dictionary):
     llist = a_dictionary.keys()
 
     for i in llist:
-        dic[i] = a_dictionary.get(i)
+        dic[i] = (a_dictionary.get(i)) * 2
 
     return dic
