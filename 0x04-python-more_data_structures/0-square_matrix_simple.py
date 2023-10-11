@@ -3,10 +3,11 @@
 def square_matrix_simple(matrix=[]):
     mtx = matrix.copy()
     len_g = len(mtx)
+    j = 0
 
     if mtx:
-        for i in range(len_g):
-            len_l = len(mtx[i])
-            for j in range(len_l):
-                mtx[i][j] = mtx[i][j]**2
+        for i in mtx:
+            sm = list(map(lambda x: x**2, i))
+            mtx[j] = sm
+            j += 1
     return mtx
