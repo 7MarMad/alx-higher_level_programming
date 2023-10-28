@@ -7,5 +7,5 @@ def safe_print_division(a, b):
         res = "none"
         return res
     finally:
-        print("Inside result: {:d} / {:d} = {}".format(a, b, res))
+        print("Inside result: {}".format(a, b, res))
     return res
